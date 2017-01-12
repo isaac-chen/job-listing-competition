@@ -28,10 +28,14 @@
         <td>薪资上限</td>
         <td>刊登时间</td>
     </tr>
+
   </thead>
   <tbody>
   <% @jobs.each do |job| %>
   <tr>
+    <td>
+      <%= link_to(job.title, job_path(job)) %>
+    </td>
     <td>
       <%= job.wage_lower_bound %>
     </td>
