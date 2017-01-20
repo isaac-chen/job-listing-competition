@@ -17,4 +17,65 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "font-awesome"
+@import "font-awesome";
+
+.jumbotron {
+  background-image:url('https://steelgraham.files.wordpress.com/2016/10/spinning-clock.gif?w=450');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 110px;
+}
+
+.title {
+  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 80px;
+  color: white;
+}
+
+.slogan {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  top: 12px;
+}
+
+.lead {
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+
+.caption {
+  margin: 30px;
+  text-align: center;
+  top: 20px;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin-top: 60px;
+}
+
+.custab{
+  border: 1px solid #2F70B1;
+
+  padding: 5px;
+  margin: 5% 0;
+  box-shadow: 3px 3px 2px #2F70B1;
+
+  transition: 0.5s;
+}
+
+.custab:hover{
+  box-shadow: 3px 3px 0px transparent;
+  transition: 0.5s;
+}
+
+.container-fluid{
+  background-color: black;
+  color: white;
+}
